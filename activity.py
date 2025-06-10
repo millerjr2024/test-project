@@ -1,6 +1,6 @@
 import os
 
-file_path = 'file handling.txt'  # Define the variable properly
+file_path = 'file handling.txt'  
 if os.path.exists(file_path):
     print("the file already exist")
 else:
